@@ -2,7 +2,7 @@
   "name": "rest-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MTLY-1610/REST-API/issues"
   },
-  "homepage": "https://github.com/MTLY-1610/REST-API#readme"
+  "homepage": "https://github.com/MTLY-1610/REST-API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
