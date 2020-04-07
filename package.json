@@ -1,4 +1,4 @@
-{
+npm install {
   "name": "REST-API",
   "version": "1.0.0",
   "description": "",
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/MTLY-1610/REST-API/issues"
   },
-  "homepage": "https://github.com/MTLY-1610/REST-API#readme",
-  "dependencies": {
-    "espress": "0.0.0"
-  }
+  "homepage": "https://github.com/MTLY-1610/REST-API#readme"
 }
