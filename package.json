@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MTLY-1610/REST-API#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "nodemon": "^2.0.3"

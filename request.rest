@@ -1,0 +1,38 @@
+//get users list
+GET http://localhost:3000/api/v1/users
+
+###
+
+//get one user
+GET http://localhost:3000/api/v1/users/1
+
+###
+
+//add a new user
+POST http://localhost:3000/api/v1/users
+Content-Type: application/json
+
+
+{
+    "firstname": "faker",
+    "lastname": "Fakersson",
+    "jobtitle": "I fake",
+    "email": "fake.fakerson@ifake.com"
+}
+
+###
+//modify a  user
+PUT http://localhost:3000/api/v1/users/11
+Content-Type: application/json
+
+
+{
+    "firstname": "fakr",
+    "lastname": "Fakersson",
+    "jobtitle": "I fake",
+    "email": "fake.fakerson@ifake.com"
+}
+
+### 
+
+DELETE http://localhost:3000/api/v1/users/
