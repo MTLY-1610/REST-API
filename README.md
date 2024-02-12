@@ -1,6 +1,6 @@
 # REST-API
 
-Simple rest api prrf of concept using all crud functions.
+Simple rest api proof of concept using all crud functions.
 
 # USING
 
